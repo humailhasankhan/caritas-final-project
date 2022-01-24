@@ -20,7 +20,7 @@ class RootIndex extends React.Component {
         <Home />
         <Button
           onClick={handleClick}
-          text="Case Studies"
+          text="Our Success Stories"
           icon={<CgArrowLongRight />}
         />
       </Layout>
