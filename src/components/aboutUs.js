@@ -1,7 +1,7 @@
 import React from 'react'
 
 const AboutUs = () => (
-  <div className="m-2 bg-red-600 font-lato w-full p-4">
+  <div className="m-2 bg-red-600 font-lato  p-4">
     <div className="bg-red">
       <h2 className="text-center text-white text-4xl mt-6 w-full bg-red">
         Caritas Refugee Education
