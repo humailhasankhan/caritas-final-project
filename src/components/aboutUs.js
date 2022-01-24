@@ -1,9 +1,9 @@
 import React from 'react'
 
 const AboutUs = () => (
-  <div className="m-2 bg-red-600 font-lato w-full p-4">
+  <div className="bg-red-600 p-4">
     <div className="bg-red">
-      <h2 className="text-center text-white text-4xl mt-6 w-full bg-red">
+      <h2 className="text-center text-white text-4xl mt-6 bg-red">
         Caritas Refugee Education
       </h2>
       <p className="text-black p-4 bg-white m-6 font-bold">

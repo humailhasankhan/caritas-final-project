@@ -7,7 +7,9 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Header />
-      <main>{children}</main>
+      <main className="relative max-w-5xl mr-2 left-1/2 -translate-x-1/2 md:mr-4">
+        {children}
+      </main>
       <Footer />
     </div>
   )
