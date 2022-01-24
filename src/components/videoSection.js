@@ -2,7 +2,7 @@ import React from 'react'
 
 const VideoSection = () => {
   return (
-    <div className="">
+    <div>
       <iframe
         className="m-auto p-4"
         width="640"
