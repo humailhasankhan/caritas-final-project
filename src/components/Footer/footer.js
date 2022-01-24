@@ -1,5 +1,12 @@
 import React from 'react'
+import Links from './links'
+import Privacy from './privacy'
 
-const Footer = () => <footer>footer goes here!</footer>
+const Footer = () => (
+  <footer>
+    <Privacy />
+    <Links />
+  </footer>
+)
 
 export default Footer
