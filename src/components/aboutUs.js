@@ -6,7 +6,7 @@ const AboutUs = () => (
       <h2 className="text-center text-white text-4xl mt-6 w-full bg-red">
         Caritas Refugee Education
       </h2>
-      <p className="text-black p-4 bg-white m-6 font-bold">
+      <p className="text-gray-600 p-4 bg-white m-6 font-bold">
         ”I went from being destitute and living in emergency accommodation, to
         getting a qualification with Caritas and now succeeding in my university
         course.” Musaab – former student

@@ -3,11 +3,11 @@ import React from 'react'
 const Services = () => (
   <div className="m-2 bg-gray-200 font-lato">
     <div>
-      <h2 className="text-center text-4xl mt-6 p-4 w-full border-2">
+      <h2 className=" text-gray-600 text-center text-4xl mt-6 p-4 w-full border-2">
         Our Services
       </h2>
     </div>
-    <div className="w-full">
+    <div className=" text-gray-600 w-full">
       <ul className="grid grid-cols-1 sm:grid-cols-2 list-disc">
         <li className="border-2 m-6 p-4 col-span-1 text-base">
           <span className="font-bold text-large pr-1">Education:</span>English
