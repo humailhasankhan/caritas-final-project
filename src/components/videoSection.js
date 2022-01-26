@@ -3,6 +3,9 @@ import React from 'react'
 const VideoSection = () => {
   return (
     <div>
+      <h2 className="text-center text-4xl mt-6 p-4 w-full">
+        See Our Work in Action
+      </h2>
       <iframe
         className="m-auto p-4"
         width="640"
