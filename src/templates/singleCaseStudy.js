@@ -21,7 +21,7 @@ class CaseStudyTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <div className="grid grid-cols-1 p-2 md:grid-cols-2 p-6 bg-gray-200">
+        <div className="grid grid-cols-1 p-2 m-2 md:grid-cols-2 p-6 bg-gray-200">
           <div className="order-1 col-span-1 mb-4 md:col-span-2 text-center text-4xl">
             <h2>{caseStudy.name}</h2>
           </div>

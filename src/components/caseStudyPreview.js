@@ -7,7 +7,7 @@ const CaseStudyPreview = ({ caseStudies }) => {
   if (!caseStudies) return null
   if (!Array.isArray(caseStudies)) return null
   return (
-    <div className="w-full bg-gray-200 p-5">
+    <div className="bg-gray-200 p-4 m-2">
       <h1 className="text-center text-2xl pt-5 p-10 md:text-4xl ">
         Our Case Studies
       </h1>
@@ -19,7 +19,7 @@ const CaseStudyPreview = ({ caseStudies }) => {
               key={caseStudy.id}
             >
               <Link
-                className="hover:opacity-70"
+                className="hover:opacity-70 transition ease-out duration-500 hover:shadow-2xl"
                 to={`/caseStudies/${caseStudy.slug}`}
               >
                 <GatsbyImage alt="" image={caseStudy.image.gatsbyImageData} />
