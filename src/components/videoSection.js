@@ -2,7 +2,7 @@ import React from 'react'
 
 const VideoSection = () => {
   return (
-    <div className="flex items-center justify center m-2">
+    <div className="flex m-2 sm:w-full">
       <div className="flex-1 max-w-3xl m-auto">
         <h2 className="text-center text-4xl mt-6 p-4 w-full">
           See Our Work in Action
