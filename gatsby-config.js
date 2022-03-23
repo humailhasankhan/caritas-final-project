@@ -37,8 +37,8 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Contentful Starter',
-    description: 'Official Contentful Gatsby Starter',
+    title: 'Caritas Education Web Page',
+    description: 'Education section of Caritas Website',
   },
   pathPrefix: '/gatsby-contentful-starter',
   plugins: [

@@ -85,7 +85,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // But only if there's at least one post found in Contentful
 
   if (studentWallPosts.length > 0) {
-    studentWallPosts.forEach((wallPost, index) => {
+    studentWallPosts.forEach((wallPost) => {
       createPage({
         path: `/studentWall/${wallPost.slug}/`,
         component: singleWallPost,
